@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body 
+{
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+.container .left_side
+{
+    position: relative;
+    background: rgb(0, 0, 0);
+    padding: 20px;
+}
+.ProfileText
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.ProfileText .imgbx
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.ProfileText .imgbx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.ProfileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+.ProfileText h2 span
+{
+    font-size: 0.7em;
+    font-weight: 300;
+}
+.contactInfo
+{
+    padding-top: 20px;
+}
+.title
+{
+    margin: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.contactInfo ul
+{
+    position: relative;
+}
+.contactInfo ul li
+{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contactInfo ul li .icon
+{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+.contactInfo ul li span
+{
+    color: #fff;
+}
+.contactInfoeducation ul
+{
+    position: relative;
+}
+.contactInfoeducation
+{
+    padding-top: 5px;
+}
+.titlee
+{
+   padding-top: 15px;
+   margin: 10px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+}
+.contactInfoeducation ul li
+{
+    color: #fff;
+    position: relative;
+    list-style: none;
+    margin: 0.8px 0;
+    cursor: pointer;
+}
+.contactInfoeducation h5
+{
+    font-weight: 500;
+}
+.contactInfoeducation h4
+{
+    font-weight: 500;
+}
+.contactInfoeducation .title h3
+{
+    font-weight: 600;
+}
+.contactInfoeducation ul li h3
+{
+    font-weight: 500;
+}
+.contactInfolanguage .titlew 
+{
+    padding-top: 15px;
+    margin: 10px;
+     color: #fff;
+     text-transform: uppercase;
+     font-weight: 600;
+     letter-spacing: 0.6px;
+     margin-bottom: 15px;
+}
+.contactInfolanguage ul li h4
+{
+    color: #fff;
+    font-weight:  500;
+}
+
+.container .right_side
+{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
+.about
+{
+    margin-bottom: 50px;
+}
+.about:last-child
+{
+    margin-bottom: 0;
+}
+.title2
+{
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+p
+{
+    color: black;
+    font-size: 19px;
+}
+.about .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box .year_company
+{
+    min-width: 150px;
+
+}
+.about .box .year_company h5
+{
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+}
+.about .box .text h4
+{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+.aboutskills .box
+{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.aboutskills .box h4
+{
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    font-size: 15px;
+}
+.aboutskills .box .percent
+{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #f0f0f0;
+}
+.aboutskills .box .percent div
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: black;
+}
